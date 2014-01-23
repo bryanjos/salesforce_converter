@@ -1,6 +1,6 @@
 # SalesforceConverter
 
-Small Program to try to figure out the file types from a backup from Salesforce
+A small Elixir program to try to figure out the file types from a backup from Salesforce
 
 Compile:
 ```
