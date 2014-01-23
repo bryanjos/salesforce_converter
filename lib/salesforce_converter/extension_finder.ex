@@ -4,7 +4,7 @@ defmodule SalesforceConverter.ExtensionFinder do
 		cond do
 			String.starts_with? binary, "%PDF-" ->
 				"pdf"
-			String.starts_with? binary, "<?xml" ->
+			String.starts_with? binary, "<?xml version=" ->
 				"xml"
 			String.starts_with? binary, "{\\rtf" ->
 				"rtf"
