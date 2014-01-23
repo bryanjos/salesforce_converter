@@ -9,6 +9,17 @@ mix escriptize
 ```
 
 Usage:
+
+If you have a directory tree that looks like the following:
 ```
-./salesforce_converter <path_to_exported_files>
+\
+  \backup
+    \Attachments
+    \Documents
+```
+
+Then you would use it like this:
+
+```
+./salesforce_converter \backup
 ```
